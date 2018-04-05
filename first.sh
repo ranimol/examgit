@@ -8,11 +8,11 @@ while [ $i -lt $n ]
 		p=$(($i % 2))
 	   if ( $p -eq 0 )
 	   then
-	     echo $n is prime
+	     echo "$n is prime"
 	     exit
 	   fi
 	i=$(($i + 1))
 	done
 
-echo $n is not prime
+echo "$n is not prime"
 
