@@ -5,7 +5,7 @@ read n
 i=2
 while [ $i -lt $n ] 
 	do
-		p=$(($i % 2))
+	    p=$(($i%2))
 	   if ( $p -eq 0 )
 	   then
 	     echo "$n is prime"
